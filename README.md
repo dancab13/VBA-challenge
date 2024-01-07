@@ -11,7 +11,8 @@ The VBA code:
 The solved Excel file is available upon request, though the instructions didn't specify we add it.
 
 Some notes:
-*The code for looping through the worksheets is from Stack Overflow:
+
+-The code for looping through the worksheets is from Stack Overflow:
   Dim ws As Worksheet
 
   For Each ws In ActiveWorkbook.Worksheets
@@ -22,7 +23,7 @@ Some notes:
 
   Next ws
 
-*The code for autofitting all cell column widths is from recording a macro and seeing the VBA code:
+-The code for autofitting all cell column widths is from recording a macro and seeing the VBA code:
 
   Cells.Select
   Selection.Columns.AutoFit
